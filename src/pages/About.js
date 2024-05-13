@@ -24,8 +24,8 @@ function About() {
       <div className="map-container">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.1952649977547!2d31.213111025859522!3d30.031255419198096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584781682635a3%3A0x8e276197b00990b8!2z2YPZhNmK2Kkg2KfZhNiv2LHYp9iz2KfYqiDYp9mE2LnZhNmK2Kcg2YTZhNio2K3ZiNirINin2YTYpdit2LXYp9im2YrYqSDYrNin2YXYudipINin2YTZgtin2YfYsdip!5e0!3m2!1sar!2seg!4v1713300889460!5m2!1sar!2seg"
-          width="600"height="450" style="border:0;"allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          width="600"
+          height="450"
         ></iframe>{" "}
       </div>
     </div>
