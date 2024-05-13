@@ -1,0 +1,11 @@
+.login{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate();
+  -webkit-transform: translate();
+  -moz-transform: translate();
+  -ms-transform: translate();
+  -o-transform: translate();
+}

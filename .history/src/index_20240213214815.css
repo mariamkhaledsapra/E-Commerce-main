@@ -1,0 +1,11 @@
+.login{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: s;
+  -webkit-transform: s;
+  -moz-transform: s;
+  -ms-transform: s;
+  -o-transform: s;
+}
