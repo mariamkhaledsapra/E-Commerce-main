@@ -47,43 +47,63 @@ const Navbar = () => {
               class="dropdown-menu dropdown-menu-end"
               aria-labelledby="dropdownMenu2"
             >
-              <li class="dropdown-item " style={{cursor:"pointer"}}>
-                <FaUser className="fs-4"/>
+              <li class="dropdown-item " style={{ cursor: "pointer" }}>
+                <FaUser className="fs-4" />
                 <span className="mx-2">My Name</span>
               </li>
-              <li class="dropdown-item" style={{cursor:"pointer"}}>
-                <FaUser className="fs-4"/>
+              <li class="dropdown-item" style={{ cursor: "pointer" }}>
+                <FaUser className="fs-4" />
                 <span className="mx-2">Manage My Account</span>
               </li>
-              <li class="dropdown-item" style={{cursor:"pointer"}}>
-                <BsBag className="fs-4"/>
+              <li class="dropdown-item" style={{ cursor: "pointer" }}>
+                <BsBag className="fs-4" />
                 <span className="mx-2">My products</span>
               </li>
-              <li class="dropdown-item" style={{cursor:"pointer"}}>
-                <IoCloseCircleOutline className="fs-4"/>
+              <li class="dropdown-item" style={{ cursor: "pointer" }}>
+                <IoCloseCircleOutline className="fs-4" />
                 <span className="mx-2">My Number</span>
               </li>
-              <li class="dropdown-item" style={{cursor:"pointer"}}>
-                <CiLogout className="fs-4"/>
+              <li class="dropdown-item" style={{ cursor: "pointer" }}>
+                <CiLogout className="fs-4" />
                 <span className="mx-2">LogOut</span>
               </li>
             </ul>
           </div>
-                               {/*penalty of icon*/}
-          <Form.Control type="search" placeholder="Search" className="mr-sm-20" aria-label="Search" />
-          <Link to="/login" className="d-flex justify-content-center align-items-center flex-column " >
+          {/*penalty of icon*/}
+          <Form.Control
+            type="search"
+            placeholder="Search"
+            className="mr-sm-20"
+            aria-label="Search"
+          />
+          <Link
+            to="/login"
+            className="d-flex justify-content-center align-items-center flex-column "
+          >
             <i class="fa-solid fa-user"></i> <p>login</p>
           </Link>
-          <Link to="/cate" className="d-flex justify-content-center align-items-center flex-column " >
+          <Link
+            to="/cate"
+            className="d-flex justify-content-center align-items-center flex-column "
+          >
             <i class="fa-solid fa-message"></i> <p>Messages</p>
           </Link>
-          <Link to="/favoret" className="d-flex justify-content-center align-items-center flex-column " >
-            <i class="fa-solid fa-heart"></i><p>Favoret</p>
+          <Link
+            to="/favoret"
+            className="d-flex justify-content-center align-items-center flex-column "
+          >
+            <i class="fa-solid fa-heart"></i>
+            <p>Favoret</p>
           </Link>
-          <Link to="/ShoppingCart" className="d-flex justify-content-center align-items-center flex-column " >
+          <Link
+            to="/ShoppingCart"
+            className="d-flex justify-content-center align-items-center flex-column "
+          >
             <i class="fa-solid fa-cart-shopping"></i> <p>cart</p>
           </Link>
-          <Button variant="outline-info" to="/Signup">Signup </Button>
+          <Button variant="outline-info" to="/Signup">
+            Signup{" "}
+          </Button>
 
           <button className="btn btn-warning  text-light fw-bold">
             Signin

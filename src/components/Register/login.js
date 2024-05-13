@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Button, label, Stack } from "react-bootstrap";
+import { Form, Button, Stack } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 const Loginpage = () => {
   const navigate = useNavigate();

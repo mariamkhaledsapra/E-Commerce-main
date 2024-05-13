@@ -1,11 +1,12 @@
 import React from "react";
+import { Col, Tooltip, Button, Row } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-import QrCode from "../image/QRCOOD.png";
-import google from "../image/googleplay.png";
+import QrCode from "./image/QRCOOD.png";
+import google from "./image/googleplay.png";
 const Footer = () => {
   return (
     <div className="bg-light py-2 ">
